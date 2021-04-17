@@ -1,0 +1,246 @@
+
+
+:root {
+    --main-font: font-family "Roboto", sans-serif;
+}
+
+/* --- header --- */
+
+.header-logo {
+text-decoration: none;
+font-family: "Raleway";
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;    
+color: #2196F3; 
+}
+.nazwa-klasy-2 {
+color: black;
+}
+
+.slogan_background {
+background-color:#2F303A;
+}
+
+.slogan {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */  
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.navigation-list-link {
+text-decoration: none;    
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+cursor: pointer;
+}
+.navigation-list-link:hover {
+color: #2196F3;    
+}
+.navigation-list-link:focus {
+color: #2196F3;
+}
+
+.adress_email_telefon {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}  
+.adress_email_telefon:hover{
+color: #2196F3;
+}
+.adress_email_telefon:focus{
+color: #2196F3;
+}
+.adress_email_telefon:active{
+text-decoration: underline;    
+}
+
+.modal-btn {
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */  
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+background-color: #2196F3;   
+color: #ffffff;
+cursor: pointer;
+}
+
+.why_us_list_name {
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.why_us_list_text {
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.secondary_header {
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.our_team_cards_name {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.our_team_cards_skill {
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.footer_things {
+background-color: #2F303A;
+}
+
+.place {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+} 
+.place:active {
+text-decoration: underline;   
+}
+
+.mail {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);   
+}
+.mail:active {
+text-decoration: underline;    
+}
+
+.telefon {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.telefon:active {
+text-decoration: underline;     
+}
+
+/* --- PORTFOLIO --- */
+
+.option_list_name_link {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+cursor: pointer;
+}
+.option_list_name_link:hover {
+background-color: #2196F3;
+} 
+.option_list_name_link:focus {
+color: #2196F3;
+}
+
+.options_images_project {
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;   
+}
+
+.options_images_name {
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.nazwa-klasy-4 {
+color:#FFFFFF;
+}
