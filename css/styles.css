@@ -260,3 +260,12 @@ p
 margin: 0;
 padding: 0;
 }
+
+img {
+display: block;
+}
+
+.container {
+    width: 1200px;
+    padding: 
+}
