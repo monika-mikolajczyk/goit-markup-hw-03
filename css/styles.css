@@ -244,3 +244,19 @@ color: #757575;
 .nazwa-klasy-4 {
 color:#FFFFFF;
 }
+
+
+/* --- homework-3_style-geometrii --- */
+
+/* --- resetowanie stylów selektora tagu dla elementów <h1>...<h6>, <p> i <ul> --- */
+
+h1,
+h2,
+h3,
+ul,
+li,
+p
+{
+margin: 0;
+padding: 0;
+}
