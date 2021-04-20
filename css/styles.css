@@ -246,9 +246,10 @@ color:#FFFFFF;
 }
 
 
-/* --- homework-3_style-geometrii --- */
 
-/* --- resetowanie stylów selektora tagu dla elementów <h1>...<h6>, <p> i <ul> --- */
+/* ----- homework-3_style-geometrii ----- */
+
+/* resetowanie stylów selektora tagu dla elementów <h1>...<h6>, <p> i <ul> */
 
 h1,
 h2,
@@ -291,6 +292,8 @@ list-style: none;
 text-decoration: none;
 }
 
+/* KLASY POMOCNICZE: CONTAINER I SECTION */
+
 .container {
 width: 1200px;
 padding: 0 15px; 
@@ -301,6 +304,8 @@ margin: 0 auto;
 .section {
 padding-top: 94px; 
 }
+
+/* HEADER */
 
 .header .container {
 display: flex;
@@ -348,6 +353,8 @@ margin-right: 50px;
 display: flex;
 }
 
+/* SLOGAN + BUTTON */
+
 .slogan_background .container {
 width: 1200px;
 height: 600px;
@@ -371,10 +378,10 @@ justify-content: center;
 }
 
 .modal-btn-class {
- padding-top: 30px;
+padding-top: 30px;
 }
 
-/* SECTION WHY US */
+/* SEKCJA WHY US */
 
 .why_us_list /*ul class*/ {
 display:  flex;
@@ -389,18 +396,16 @@ margin-right: 30px;
 padding-bottom: 10px;  
 }
 
-
  /* SEKCJA SERVICES */
 
-
 .secondary_header_list {
-  display:  flex;
-  justify-content: space-between;
+display:  flex;
+justify-content: space-between;
 }
 
 .secondary_header_images {
-  padding-top: 50px;
-  padding-bottom: 94px;
+padding-top: 50px;
+padding-bottom: 94px;
 }
 
 /* SEKCJA OUR TEAM */
@@ -410,13 +415,13 @@ background-color: #F5F4FA;
 }
 
 .our_team_cards_list {
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 
 .our_team_cards {
-  padding-top: 50px;
-  padding-bottom: 94px;
+padding-top: 50px;
+padding-bottom: 94px;
 }
 
 .our_team_cards_list_item {
@@ -427,12 +432,12 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .our_team_cards_name {
-  padding-top: 30px;
-  padding-bottom: 10px;
+padding-top: 30px;
+padding-bottom: 10px;
 }
 
 .our_team_cards_skill {
-  padding-bottom: 30px;
+padding-bottom: 30px;
 }
 
 /* FOOTER */
@@ -444,18 +449,20 @@ padding-bottom: 60px;
 }
 
 .adress_footer {
-  padding-top: 20px;
+padding-top: 20px;
 }
 
-/* PORTFOLIO */
+/* --- PORTFOLIO --- */
+
+/* SEKCJA OPTIONS */
 
 .options_list {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .options_list_name:not(:last-child) {
-  padding-right: 8px;
+padding-right: 8px;
 }
 
 .option_list_name_link {
@@ -469,12 +476,14 @@ border-radius: 4px;
 } 
 .option_list_name_link:focus {
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
- border-radius: 4px;
+border-radius: 4px;
 }
+
+/* SEKCJA OPTIONS_IMAGES */
 
 .options_images_list {
 padding-top: 50px;
- padding-bottom: 94px;
+padding-bottom: 94px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
