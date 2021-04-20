@@ -252,7 +252,7 @@ color:#FFFFFF;
 
 h1,
 h2,
-h3,
+h3
 {
 margin: 0;
 padding: 0;
@@ -350,9 +350,9 @@ align-items: center;
 }
 
 .slogan {
- width: 696px;
- padding-top: 200px;
- margin: auto;
+width: 696px;
+padding-top: 200px;
+margin: auto;
 }
 
 .modal-btn {
@@ -362,3 +362,11 @@ align-items: center;
 .modal-btn-class {
  padding-top: 30px;   
 }
+
+.section {
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+} 
+
+
