@@ -364,9 +364,55 @@ margin: auto;
 }
 
 .section {
-  width: 1200px;
-  padding-top: 94px;
+padding-top: 94px; 
+}
+
+.why_us_list /*ul class*/ {
+display:  flex;
+}
+/*jak dałam flex-wrap: wrap; to się usunęły kolumny*/
+
+.why_us_list_item:not(:last-child) {
+margin-right: 30px;
+}
+
+
+ /* SEKCJA SERVICES */
+
+
+.secondary_header_list {
+  display:  flex;
+  justify-content: space-between;
+}
+
+.secondary_header_images {
+  padding-top: 50px;
+}
+
+/* SEKCJA OUR TEAM */
+
+.our_team_cards_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our_team_cards {
+  padding-top: 50px;
   padding-bottom: 94px;
-} 
+}
 
+.our_team_cards_name {
+  padding-top: 30px;
+}
 
+/* FOOTER */
+
+.footer_things {
+display: flex;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.adress_footer {
+  padding-top: 20px;
+}
