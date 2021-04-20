@@ -1,7 +1,7 @@
 
 
 :root {
-    --main-font: font-family "Roboto", sans-serif;
+  --main-font: font-family "Roboto", sans-serif;
 }
 
 /* --- header --- */
@@ -264,10 +264,10 @@ margin: 0;
 padding: 0;   
 }
 /* dałam oprócz "list-style: none;" to co powyżej,
-   bo Alex powiedział na zajęciach praktycznych,
-   że lepiej dawać właśnie po przecinku, w razie
-   gdybyśmy chcieli jednak jakąś listę numerować
-   czy wypunktować */
+ bo Alex powiedział na zajęciach praktycznych,
+ że lepiej dawać właśnie po przecinku, w razie
+ gdybyśmy chcieli jednak jakąś listę numerować
+ czy wypunktować */
 
 ul,
 li {
@@ -285,13 +285,13 @@ display: block;
 .list {
 list-style: none;
 }
-    
+  
 .link {
 text-decoration: none;
 }
 
 .container {
-width: 1600px;
+width: 1200px;
 padding: 0 15px; 
 align-items: center;
 margin: 0 auto;
@@ -306,8 +306,8 @@ border-bottom: 1px solid #ececec;
 }
 
 /* tylko mail i telefon jest obok logo, a przyciski 
-   "Agencja/Portfolio/Kontakt" są co prawda też obok,
-   ale w kolumnie 3-wierszowej */
+ "Agencja/Portfolio/Kontakt" są co prawda też obok,
+ ale w kolumnie 3-wierszowej */
 
 .navigation-logo {
 display: flex;
@@ -324,8 +324,41 @@ display: flex;
 align-items: center;
 }
 /* teraz przyciski "Agencja/Portfolio/Kontakt" 
-   są w jednym wierszu */
+ są w jednym wierszu */
 
 .navigation-list-item:not(:last-child) {
 padding-right: 45px;
+}
+
+.header .contact {
+margin-left: auto;
+}
+.contact {
+list-style-type: none;
+}
+.adress_email_telefon:not(:last-child) {
+margin-right: 50px;
+}
+.contact {
+display: flex;
+}
+
+.slogan_background .container {
+width: 1200px;
+height: 600px;
+align-items: center;
+}
+
+.slogan {
+ width: 696px;
+ padding-top: 200px;
+ margin: auto;
+}
+
+.modal-btn {
+ margin: auto;  
+}
+
+.modal-btn-class {
+ padding-top: 30px;   
 }
