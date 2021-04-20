@@ -275,7 +275,8 @@ list-style: none;
 }
 
 p{
-padding: 0;    
+padding: 0; 
+margin: 0;   
 }
 
 img {
@@ -295,6 +296,10 @@ width: 1200px;
 padding: 0 15px; 
 align-items: center;
 margin: 0 auto;
+}
+
+.section {
+padding-top: 94px; 
 }
 
 .header .container {
@@ -356,16 +361,20 @@ margin: auto;
 }
 
 .modal-btn {
- margin: auto;  
+margin: auto;
+width: 200px;
+height: 50px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+text-transform: none;
+justify-content: center;
 }
 
 .modal-btn-class {
- padding-top: 30px;   
+ padding-top: 30px;
 }
 
-.section {
-padding-top: 94px; 
-}
+/* SECTION WHY US */
 
 .why_us_list /*ul class*/ {
 display:  flex;
@@ -374,6 +383,10 @@ display:  flex;
 
 .why_us_list_item:not(:last-child) {
 margin-right: 30px;
+}
+
+.why_us_list_name {
+padding-bottom: 10px;  
 }
 
 
@@ -387,9 +400,14 @@ margin-right: 30px;
 
 .secondary_header_images {
   padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 /* SEKCJA OUR TEAM */
+
+.our_team {
+background-color: #F5F4FA;
+}
 
 .our_team_cards_list {
   display: flex;
@@ -401,8 +419,20 @@ margin-right: 30px;
   padding-bottom: 94px;
 }
 
+.our_team_cards_list_item {
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
 .our_team_cards_name {
   padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.our_team_cards_skill {
+  padding-bottom: 30px;
 }
 
 /* FOOTER */
@@ -428,10 +458,44 @@ padding-bottom: 60px;
   padding-right: 8px;
 }
 
+.option_list_name_link {
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.option_list_name_link:hover {
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+} 
+.option_list_name_link:focus {
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ border-radius: 4px;
+}
+
 .options_images_list {
-  padding-top: 50px;
-  padding-bottom: 94px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+padding-top: 50px;
+ padding-bottom: 94px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: -30px;
+}
+
+.options_images_list_item 
+{
+margin-top: 30px;
+border-bottom: 1px solid #EEEEEE;
+}
+
+.options_images_project {
+padding-top: 20px;
+padding-bottom: 4px;
+padding-left: 24px;
+padding-right: 24px;
+}
+
+.options_images_name {
+padding-bottom: 20px;
+padding-left: 24px;
+padding-right: 24px;;
 }
