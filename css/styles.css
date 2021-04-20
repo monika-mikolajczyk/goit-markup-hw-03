@@ -416,3 +416,22 @@ padding-bottom: 60px;
 .adress_footer {
   padding-top: 20px;
 }
+
+/* PORTFOLIO */
+
+.options_list {
+  display: flex;
+  justify-content: center;
+}
+
+.options_list_name:not(:last-child) {
+  padding-right: 8px;
+}
+
+.options_images_list {
+  padding-top: 50px;
+  padding-bottom: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
